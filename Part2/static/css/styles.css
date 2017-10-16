@@ -1,0 +1,30 @@
+form{
+	width: 360px;
+	margin: 0 auto;
+    margin-top: 150px;
+}
+input{
+	width: 100%;
+	padding: 8px 0px;
+    margin: 5px 0px;
+    background-color: lightgray;
+    border-radius: 6px;
+    font-family: 'Global Sans Serif';
+}
+legend{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Global Sans Serif';
+    color: black;
+    text-shadow: 0px 0px 10px gray;
+}
+input[type=submit]{
+    margin: auto;
+	display: block;
+	width: 100px;
+    background-color: lightgray;
+    border-radius: 4px;
+}
+p{
+    color: red;
+}

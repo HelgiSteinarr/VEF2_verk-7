@@ -1,0 +1,18 @@
+a. Javascript hefur bæði Local sorage og session storage til að geyma gögn á tölvunni og vafranum. 
+   Munurinn er að session storage eyðist þegar vafranum er lokað en local storage eyðist aldrei
+
+
+b. Web SQL er til þess að nota gagnagrunn með javascript en ekki er mælt með því vegna margra ásræðna t.d. styður firefox það ekki.
+   IndexedDB er til að geyma helling og allar gerðir af gögnum beint úr vafranum með javascript
+
+
+c. Cache er minni sem vafrinn notar oft til þess að vera fljótari að hlaða gögnum sem hann notar oft.
+
+
+d. Cookies eru gögn sem vafrinn geymir og sent til servers þegar hlaðið er síðu
+
+
+e. Session er nánast það sama og cookies nema sessions endast bara þangað til vafrinn er lokaður.
+
+
+f. Session ID er strengur frá servernum til að halda utan um hvaða gögn hann á í vafranum.
